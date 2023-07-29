@@ -1,0 +1,43 @@
+
+# - [[flancian]]
+#   - this file is meant to be consumed by [[agora bridge]]: https://github.com/flancian/agora-bridge.
+#   - for a specification of this format, please consult https://anagora.org/agora-bridge.
+#   - for instructions to set up a fully working [[agora]] using this and other repos, please consult https://anagora.org/agora-install or the root repository: https://github.com/flancian/agora.
+
+- target: garden/flancian
+  url: https://github.com/flancian/garden.git
+  edit: https://github.com/flancian/garden/edit/master/{path}
+  web: https://github.com/flancian/garden/blob/master/{path}
+  protocol: git
+  format: wikivim
+
+- target: stoa/doc.anagora.org
+  url: https://github.com/flancia-coop/doc.anagora.org
+  protocol: git
+  edit: https://doc.anagora.org/{slug}?edit
+  format: stoa
+
+- target: garden/flancia.org
+  url: https://github.com/flancian/flancia
+  protocol: git
+  format: nikola
+  edit: https://github.com/flancian/flancia/edit/master/{path}
+  support: https://flancia.org
+
+- target: garden/rel8
+  url: https://github.com/OpenGlobalMind/rel8-wiki
+  web: https://wiki.rel8.dev/scalingsynthesis.com/{path}
+  edit: https://github.com/OpenGlobalMind/rel8-wiki/edit/master/{path}
+  format: obsidian
+
+- target: garden/ogm
+  url: https://github.com/OpenGlobalMind/ogm-wiki.git
+  web: https://wiki.openglobalmind.com/{path}
+  edit: https://github.com/OpenGlobalMind/ogm-wiki/edit/main/{path}
+  format: massivewiki
+
+- target: garden/massivewiki
+  url: https://github.com/Massive-Wiki/massive-wiki.git
+  web: https://massive.wiki/{path}
+  edit: https://github.com/Massive-Wiki/massive-wiki/edit/main/{path}
+  format: massivewiki
