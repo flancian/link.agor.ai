@@ -41,3 +41,9 @@
   web: https://massive.wiki/{path}
   edit: https://github.com/Massive-Wiki/massive-wiki/edit/main/{path}
   format: massivewiki
+
+- target: contexter/context.center
+  url: https://github.com/AramZS/context-center/tree/main/src
+  web: https://context.center/{path}
+  edit: https://github.com/AramZS/context-center/edit/main/src/{path}
+  format: obsidian
