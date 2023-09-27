@@ -43,7 +43,7 @@
   format: massivewiki
 
 - target: garden/context.center
-  url: https://github.com/AramZS/context-center/tree/main/src
+  url: https://github.com/AramZS/context-center.git
   web: https://context.center/{path}
   edit: https://github.com/AramZS/context-center/edit/main/src/{path}
   format: obsidian
