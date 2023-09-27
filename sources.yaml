@@ -42,7 +42,7 @@
   edit: https://github.com/Massive-Wiki/massive-wiki/edit/main/{path}
   format: massivewiki
 
-- target: garden/context.center
+- target: garden/context-center
   url: https://github.com/AramZS/context-center.git
   web: https://context.center/{path}
   edit: https://github.com/AramZS/context-center/edit/main/src/{path}
